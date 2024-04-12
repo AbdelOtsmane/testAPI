@@ -4,12 +4,12 @@
     "description": "Une description de mon projet",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "author": "Votre nom",
     "license": "MIT",
     "dependencies": {
-      "express": "^4.17.1"
+        "cors": "^2.8.5",
+        "express": "^4.19.2"
     }
-  }
-  
+}
