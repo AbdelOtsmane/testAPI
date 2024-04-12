@@ -11,6 +11,14 @@ app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
 
+app.get('/api', (req, res) => {
+  res.json({"msg": "Hello world"});
+});
+
+app.get('/test', (req, res) => {
+  res.json({"name": "noredine boukredia"});
+});
+
 // Démarrer le serveur
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
