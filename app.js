@@ -16,7 +16,8 @@ app.get('/api', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-  res.json({"name": "noredine boukredia"});
+  res.json({"firstName": "Noredine",
+  "lastName": "Boukredia",});
 });
 
 // Démarrer le serveur
